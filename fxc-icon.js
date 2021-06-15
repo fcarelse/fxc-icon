@@ -72,7 +72,7 @@ try{(()=>{ // Export for browser environment
 	if(window instanceof Object && window.customElements instanceof Object){
 		const listener = window.addEventListener('load',()=>{
 			window.customElements.define('fxc-icon', FXCIcon);
-			window.removeEventListener(listener);
+			window.removeEventListener('load', listener);
 		});
 	}
 })()} catch(e){
