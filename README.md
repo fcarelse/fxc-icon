@@ -5,7 +5,13 @@ Zero Dependencies Standalone SVG Icon selector encased in Native Javascript Cust
 View at: <a href="https://fxc-icon.js.ie" target="_blank">fxc-icon.js.ie</a>
 
 ## Syntax:
-> <fxc-icon colour="#FF0000" icon="home" />
+    <fxc-icon colour="#FF0000" icon="home" />
+
+## Include in page:
+    <script src="fxc-icon.js.ie/fxc-icon.js" defer />
+or
+
+    <script src="fxc-icon.js.ie/fxc-icon.js" type="module" />
 
 icons:
  - camera
@@ -27,3 +33,4 @@ icons:
  - tablet
  - target
  - video
+
