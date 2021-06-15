@@ -7,6 +7,9 @@ View at: <a href="https://fxc-icon.js.ie" target="_blank">fxc-icon.js.ie</a>
 ## Syntax:
     <fxc-icon colour="#FF0000" icon="home" />
 
+## Include in page:
+    <script src="fxc-icon.js.ie/fxc-icon.js" defer />
+
 icons:
  - camera
  - chat
