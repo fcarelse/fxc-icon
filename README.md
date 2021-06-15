@@ -14,7 +14,7 @@ or
     <script src="fxc-icon.js.ie/fxc-icon.js" type="module" />
 
 icons:
- - camera <fxc-icon colour="#FF0000" icon="camera" />
+ - camera
  - chat
  - computer
  - envelope
@@ -34,4 +34,3 @@ icons:
  - target
  - video
 
-<script src="fxc-icon.js.ie/fxc-icon.js" defer />
