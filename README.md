@@ -9,6 +9,8 @@ View at: <a href="https://fxc-icon.js.ie" target="_blank">fxc-icon.js.ie</a>
 
 ## Include in page:
     <script src="fxc-icon.js.ie/fxc-icon.js" defer />
+or
+    <script src="fxc-icon.js.ie/fxc-icon.js" type="module" />
 
 icons:
  - camera
