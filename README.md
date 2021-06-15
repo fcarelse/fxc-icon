@@ -14,7 +14,7 @@ or
     <script src="fxc-icon.js.ie/fxc-icon.js" type="module" />
 
 icons:
- - <fxc-icon colour="#FF0000" icon="camera" /> camera
+ - camera <fxc-icon colour="#FF0000" icon="camera" />
  - chat
  - computer
  - envelope
