@@ -20,17 +20,22 @@ icons:
  - envelope
  - group
  - home
- - identification
+ - identity
  - inbox
  - incoming
  - location
  - message
+ - music
+ - mute
  - phone
  - profile
+ - redo
  - say
  - search
  - send
  - tablet
  - target
+ - undo
  - video
+ - volume
 
