@@ -9,7 +9,7 @@
 
 class FXCIcon extends HTMLElement {
 	static get observedAttributes() {
-		return ['icon'];
+		return ['icon', 'colour'];
 	}
 	attributeChangedCallback(attr){
 		if(attr=='icon' || attr=='colour') this.render();
