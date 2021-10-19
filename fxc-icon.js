@@ -67,11 +67,7 @@ FXCIcon.paths = {
 }
 
 // Technically does nothing, but triggers lit-plugin for vscode to treat template literal string as html code.
-function html(strArr, ...args){
-	let str = '';
-	for(let i=0; i<strArr.length; str+=(args[i++] ?? '')) str+=strArr[i];
-	return str;
-}
+const html=(strArr, ...args)=>strArr.reduce((str,next,i)=>str+args[i-1]+next);
 
 try{(()=>{ // Export for browser environment
 	if(window instanceof Object && window.customElements instanceof Object){
